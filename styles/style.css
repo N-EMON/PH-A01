@@ -1,0 +1,178 @@
+
+
+
+
+.raleway-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.btn-styles{
+    background-color: #4E47FF;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+}
+.btn-styles:hover{
+    background-color: blueviolet;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+}
+/* header styles */
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-container ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    margin-bottom: 150px;
+}
+.nav-container li{
+    list-style: none;
+}
+.nav-container li a{
+    text-decoration: none;
+}
+.nav-title{
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+.banner{
+    margin:0 auto;
+    width: 905px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 30px;
+}
+.banner button{
+    margin-bottom: 150px;
+}
+/* main styles */
+main section{
+    max-width: 1480px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: rgba(215, 210, 210, 0.25);
+    margin-bottom: 130px;
+
+}
+/* Action styles */
+.action-items-container{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-content{
+    max-width: 517px;
+}
+.action-content-title{
+    font-size: 42px;
+    font-weight: bold;
+    color:#252432;   
+}
+.action-content-des{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.action-img{
+    border-radius: 48px;
+}
+/* user styles */
+.user{
+    background-color: rgba(78, 71, 255, 0.1);
+}
+.user-items-container{
+    padding: 50px 150px;
+}
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+.user-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.user-info-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    font-family: 'inter',sans-serif;
+    margin-bottom: 10px;
+
+}
+.user-info-des{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'inter',sans-serif;
+    margin-top: 10px;
+}
+/* Reviews styles */
+.review-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432; 
+    text-align: center;
+}
+.reviews-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px 20px;
+}
+.review-card{
+    box-shadow: 10px 10px 10px 0 #b78e8e;
+    padding: 20PX 10PX;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #252432;
+}
+.card-des{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.reviewer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.reviewer input{
+    display: block;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+/* Focus styles */
